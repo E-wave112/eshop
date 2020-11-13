@@ -30,6 +30,10 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = False
 ALLOWED_HOSTS = ['*']
 
+ADMINS = (
+('Osagie Iyayi', 'iyayiemmanuel1@gmail.com'),
+)
+
 
 # Application definition
 
