@@ -92,6 +92,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': str(BASE_DIR / 'db.sqlite3'),
+        'CONN_MAX_AGE': 500
     }
 }
 
@@ -165,7 +166,5 @@ BRAINTREE_CONF = braintree.Configuration.configure(
  BRAINTREE_PRIVATE_KEY
 )
 
-
-prod_db  =  dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(prod_db)
+DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 
