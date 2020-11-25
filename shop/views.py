@@ -1,4 +1,4 @@
-from django.shortcuts import render,get_object_or_404
+from django.shortcuts import render, get_object_or_404
 from .models import Product, Category
 from cart.forms import CartAddProductForm
 # Create your views here.
