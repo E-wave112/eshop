@@ -1,0 +1,93 @@
+[
+    {
+      "model": "shop.category",
+      "pk": 1,
+      "fields": {
+        "name": "Home Wears",
+        "slug": "home-wears"
+      }
+    },
+    {
+      "model": "shop.category",
+      "pk": 2,
+      "fields": {
+        "name": "Beverages",
+        "slug": "beverages"
+      }
+    },
+    {
+      "model": "shop.product",
+      "pk": 1,
+      "fields": {
+        "category": 1,
+        "name": "Night-gown",
+        "slug": "night-gown",
+        "image": "images/indexngown.jpeg",
+        "description": "A fine little dress for a good sleep",
+        "price": "1999.90",
+        "available": true,
+        "created": "2020-10-19T19:59:17.749Z",
+        "updated": "2020-11-11T09:52:54.010Z"
+      }
+    },
+    {
+      "model": "shop.product",
+      "pk": 2,
+      "fields": {
+        "category": 2,
+        "name": "Milo",
+        "slug": "milo",
+        "image": "images/indexmil.jpeg",
+        "description": "A chocolate enriched beverage made with natural cocoa and other natural ingredients",
+        "price": "20.00",
+        "available": true,
+        "created": "2020-10-19T20:57:27.794Z",
+        "updated": "2020-11-11T09:52:14.987Z"
+      }
+    },
+    {
+      "model": "shop.product",
+      "pk": 3,
+      "fields": {
+        "category": 2,
+        "name": "Nescafe",
+        "slug": "nescafe",
+        "image": "images/indexnes.jpeg",
+        "description": "a decaffeinated caffeinated drink which stimulates the mind for day to day activities with minimal side effects",
+        "price": "15.00",
+        "available": true,
+        "created": "2020-10-19T20:59:06.589Z",
+        "updated": "2020-11-11T09:52:31.509Z"
+      }
+    },
+    {
+      "model": "shop.product",
+      "pk": 4,
+      "fields": {
+        "category": 2,
+        "name": "Cowbell Milk",
+        "slug": "cowbell-milk",
+        "image": "images/index.jpeg",
+        "description": "The most reliable and nutritious source of cow milk without refiners or any other forms of additives !",
+        "price": "10.50",
+        "available": true,
+        "created": "2020-10-19T22:15:12.328Z",
+        "updated": "2020-11-11T09:52:01.532Z"
+      }
+    },
+    {
+      "model": "shop.product",
+      "pk": 5,
+      "fields": {
+        "category": 1,
+        "name": "T-shirt",
+        "slug": "t-shirt",
+        "image": "images/indextshirt.jpeg",
+        "description": "An affordable smart wear for you to get jiggy and smart-looking !",
+        "price": "220.30",
+        "available": true,
+        "created": "2020-10-19T22:16:39.497Z",
+        "updated": "2020-11-11T09:53:05.575Z"
+      }
+    }
+    ]
