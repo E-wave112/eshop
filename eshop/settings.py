@@ -182,7 +182,7 @@ BRAINTREE_CONF = braintree.Configuration.configure(
 # DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 ##CELERY BROKERS
 
-BROKER_URL = config('BROKER_URL')
+BROKER_URL = config('REDIS_URL')
 CELERY_RESULT_BACKEND = 'redis://localhost:6379'
 CELERY_ACCEPT_CONTENT = ['application/json']
 CELERY_TASK_SERIALIZER = 'json'
