@@ -3,7 +3,6 @@ from .models import Product, Category
 from cart.forms import CartAddProductForm
 # Create your views here.
 def product_list(request, category_slug=None):
-
     category = None
     categories = Category.objects.all()
     products = Product.objects.filter(available=True)

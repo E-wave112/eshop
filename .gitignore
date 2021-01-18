@@ -1,7 +1,23 @@
+##environment files
 *.env
+##cpython
 *.pyc
 # Text backup files
 *.bak
 
 # Database
 *.sqlite3
+
+
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+##celery
+celerybeat-schedule
+
+##supervisior folder
+supervisor/
