@@ -179,7 +179,7 @@ BRAINTREE_CONF = braintree.Configuration.configure(
  BRAINTREE_PRIVATE_KEY
 )
 
-DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+# DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
 ##CELERY BROKERS
 
 BROKER_URL = config('REDIS_URL')
