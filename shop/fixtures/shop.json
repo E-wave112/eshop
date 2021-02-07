@@ -1,0 +1,86 @@
+[
+{
+"model": "shop.category",
+"pk": 3,
+"fields": {
+"name": "Accessories",
+"slug": "accessories"
+}
+},
+{
+"model": "shop.category",
+"pk": 4,
+"fields": {
+"name": "Books",
+"slug": "books"
+}
+},
+{
+"model": "shop.category",
+"pk": 5,
+"fields": {
+"name": "Computers",
+"slug": "computers"
+}
+},
+{
+"model": "shop.product",
+"pk": 6,
+"fields": {
+"category": 5,
+"name": "MacBook Pro 2021",
+"slug": "macbook-pro-2021",
+"image": "images/book.jpg",
+"description": "Designed for those who defy limits and change the world, the new MacBook Pro is by far the most powerful notebook we\u2019ve ever made. With an immersive 16-inch Retina display, superfast processors, next-generation graphics, the largest battery capacity ever in a MacBook Pro, a new Magic Keyboard, and massive storage, it\u2019s the ultimate pro notebook for the ultimate user.",
+"price": "2000.00",
+"available": true,
+"created": "2021-02-07T19:41:54.551Z",
+"updated": "2021-02-07T19:41:54.551Z"
+}
+},
+{
+"model": "shop.product",
+"pk": 7,
+"fields": {
+"category": 4,
+"name": "Theory of Everything",
+"slug": "theory-everything",
+"image": "images/51oHUvYzbsL._SX327_BO1204203200_.jpg",
+"description": "Based on a series of lectures given at Cambridge University, Professor Hawking's work introduced \"the history of ideas about the universe\" as well as today's most important scientific theories about time, space, and the cosmos in a clear, easy-to-understand way.",
+"price": "15.00",
+"available": true,
+"created": "2021-02-07T19:44:18.638Z",
+"updated": "2021-02-07T19:44:18.638Z"
+}
+},
+{
+"model": "shop.product",
+"pk": 8,
+"fields": {
+"category": 4,
+"name": "A brief history of time",
+"slug": "brief-history-time",
+"image": "images/download_1.jpeg",
+"description": "A Brief History of Time: From the Big Bang to Black Holes is a theoretical book on cosmology by English physicist Stephen Hawking.[1] It was first published in 1988. Hawking wrote the book for readers who had no prior knowledge of physics and people who are interested in learning something new about interesting subjects.",
+"price": "20.00",
+"available": true,
+"created": "2021-02-07T19:51:12.528Z",
+"updated": "2021-02-07T19:51:12.528Z"
+}
+},
+{
+"model": "shop.product",
+"pk": 9,
+"fields": {
+"category": 5,
+"name": "AlienWare",
+"slug": "alienware",
+"image": "images/download_2.jpeg",
+"description": "\u201cthe Alienware 15 ticks all the boxes for a gaming laptop: It's stylish, it's fast and powerful, and it's covered in LED lighting.\u201d TechRadar says, \u201cOver the years, the 15-inch gaming laptop has become the sweet spot for gamers, and the Alienware 15 has been a top choice for its design and powerful specs",
+"price": "1000.00",
+"available": true,
+"created": "2021-02-07T19:53:29.892Z",
+"updated": "2021-02-07T19:53:29.892Z"
+}
+}
+]
