@@ -25,3 +25,4 @@ supervisor/
 fe.txt
 se.py
 weasyprint.pdf
+*.gz
