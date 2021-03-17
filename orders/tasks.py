@@ -3,6 +3,8 @@ from celery.decorators import task
 from django.core.mail import send_mail
 from .models import Order
 from eshop.settings import EMAIL_HOST_USER
+from .forms import OrderCreateForm
+
 
 
 @task
