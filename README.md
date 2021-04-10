@@ -14,4 +14,19 @@ install the dependencies
 $ pip install -r requirements.txt
 ```
 
-then you run migrations,create an admin superuser and you are good to modify any of the project or app's name !
+then you run migrations,
+```
+$ python manage.py migrate
+```
+
+create an admin superuser
+```
+$ python manage.py create superuser
+```
+start the server
+```
+$ python manage.py runserver
+```
+the server will be running on http://localhost:8000
+
+and that's it !, you are free to customize any of the project or app's configs to suit your needs.
