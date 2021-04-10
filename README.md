@@ -14,4 +14,4 @@ install the dependencies
 $ pip install -r requirements.txt
 ```
 
-then you are good to modify any of the project or app's name !
+then you run migrations,create an admin superuser and you are good to modify any of the project or app's name !
