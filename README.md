@@ -7,7 +7,7 @@ Functionalities includes:
 - payment gateway
 - Asynchronous email service update when an order has been completed
 
-to get started with the project,ensure you have setup and activated a virtual environment, guides on that [here](https://realpython.com/python-virtual-environments-a-primer/)
+To get started with the project,ensure you have setup and activated a virtual environment, guides on that [here](https://realpython.com/python-virtual-environments-a-primer/)
 
 clone the repository via the command
 
