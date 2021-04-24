@@ -4,8 +4,9 @@ AN E-commerce site built with django
 Functionalities includes:
 
 - Shopping cart
-- payment gateway
-- Asynchronous email service update when an order has been completed
+- The ability for users to filter products based on their categories and purchase any quantity of any product.
+- The ability for users to make live payments via the integrated Braintree payment gateway
+- A notification email sent asynchronously via celery and Redis to users on completion of ordering or fully purchasing a product.
 
 To get started with the project,ensure you have setup and activated a virtual environment, guides on that [here](https://realpython.com/python-virtual-environments-a-primer/)
 
