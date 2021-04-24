@@ -1,9 +1,9 @@
 # eshop
-AN E-commerce site built with django
+AN E-commerce web application built with django
 
 Functionalities includes:
 
-- Shopping cart
+- The ability for users to store items in a cart
 - The ability for users to filter products based on their categories and purchase any quantity of any product.
 - The ability for users to make live payments via the integrated Braintree payment gateway
 - A notification email sent asynchronously via celery and Redis to users on completion of ordering or fully purchasing a product.
