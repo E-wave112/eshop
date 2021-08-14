@@ -1,4 +1,3 @@
-from eshop.eshop.settings import CACHE_TTL
 from django.shortcuts import render, get_object_or_404
 from django.core.cache.backends.base import DEFAULT_TIMEOUT
 from django.views.decorators.cache import cache_page
@@ -6,6 +5,7 @@ from django.conf import settings
 from .models import Product, Category
 from cart.forms import CartAddProductForm
 
+CACHE_TTL = getattr(settings, 'CACHE_TTL', DEFAULT_TIMEOUT)
 
 # Create your views here and use the cache decorate in specific views
 @cache_page(CACHE_TTL)

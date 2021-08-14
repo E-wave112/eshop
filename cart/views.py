@@ -1,12 +1,13 @@
+from eshop.eshop.settings import CACHE_TTL
 from django.shortcuts import render,redirect,get_object_or_404
 from django.views.decorators.http import require_POST
 from django.conf import settings
-from eshop.eshop.settings import CACHE_TTL
 from django.core.cache.backends.base import DEFAULT_TIMEOUT
 from django.views.decorators.cache import cache_page
 from shop.models import Product
 from .cart import Cart
 from .forms import CartAddProductForm
+CACHE_TTL = getattr(settings, 'CACHE_TTL', DEFAULT_TIMEOUT)
 
 # Create your views here.
 @require_POST
