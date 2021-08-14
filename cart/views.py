@@ -1,4 +1,3 @@
-from eshop.eshop.settings import CACHE_TTL
 from django.shortcuts import render,redirect,get_object_or_404
 from django.views.decorators.http import require_POST
 from django.conf import settings
