@@ -105,7 +105,20 @@ DATABASES = {
     }
 }
 
+# Cache time to live is 10 minutes.
+CACHE_TTL = 60 * 10
 
+# Cache settings using redis
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient"
+        },
+        "KEY_PREFIX": "start"
+    }
+}
 
 
 # Password validation
