@@ -16,6 +16,8 @@ def product_list(request, category_slug=None):
     if category_slug:
         category = get_object_or_404(Category, slug=category_slug)
         products = products.filter(category=category)
+        if len(products) == 0:
+            products = 'no products found in this category'
     return render(request,
         'shop/product/list.html',
         {'category': category,
