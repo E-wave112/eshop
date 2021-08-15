@@ -21,6 +21,9 @@
  <div id="main" class="product-list">
  <h1>{% if category %}{{ category.name }}{% else %}Products
  {% endif %}</h1>
+ {% if len(products) == 0 %}
+<p>No products were found in this category !</p>
+{% endif %}
  {% for product in products %}
  <div class="item">
  <a href="{{ product.get_absolute_url }}">
