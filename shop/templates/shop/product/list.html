@@ -22,7 +22,8 @@
  <h1>{% if category %}{{ category.name }}{% else %}Products
  {% endif %}</h1>
  {% if not products%}
-<p>No products were found in this category !</p>
+ <br><br>
+<p id="none">No products were found in this category !</p>
 {% endif %}
  {% for product in products %}
  <div class="item">

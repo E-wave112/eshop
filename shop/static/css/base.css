@@ -316,6 +316,10 @@ ul.errorlist {
     width:120px;
 }
 
+#none {
+    text-align:center;
+}
+
 /* braintree hosted fields */
 form div.field {
     font-size:13px;
