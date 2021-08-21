@@ -27,7 +27,7 @@ def cart_remove(request, product_id):
     cart.remove(product)
     return redirect('cart:cart_detail')
 
-# @cache_page(CACHE_TTL)
+@cache_page(CACHE_TTL)
 def cart_detail(request):
     cart = Cart(request)
     for item in cart:
