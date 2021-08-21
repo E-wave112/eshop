@@ -184,6 +184,10 @@ ul.errorlist {
     overflow:hidden;
 }
 
+#none {
+    text-align:center;
+}
+
 .product-list .item {
     width:25%;
     padding:10px 20px 10px 0;
