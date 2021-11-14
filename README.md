@@ -1,5 +1,5 @@
 # eshop
-AN E-commerce web application built with django
+AN E-commerce web application built with Django
 
 Functionalities includes:
 
