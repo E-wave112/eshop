@@ -37,4 +37,4 @@ $ python manage.py runserver
 ```
 the server will be running on http://localhost:8000
 
-and that's it !, you are free to customize and extend any of the project or app's configs to suit your needs.
+and that's it!, you are free to customize and extend any of the project features or app's configs to suit your needs.
