@@ -9,7 +9,7 @@ click==7.1.2
 click-didyoumean==0.0.3
 click-repl==0.1.6
 Django==2.2.27
-flower==0.9.3
+flower==1.2.0
 gunicorn==20.0.4
 idna==2.10
 kombu==5.0.2
